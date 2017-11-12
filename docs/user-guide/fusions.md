@@ -13,9 +13,6 @@ The more things in the recipe and the higher the temperature the more time it wi
 
 Here are all the recipes:
 
-##### Gem
-
-Ingredients: 100 Clicks
-Temperature 120°C
-Energy: 200 Clicks
-Time: 10 Seconds
+| Name | Ingredients | Temperature | Energy (Clicks) | Time (Seconds) |
+|------|-------------|-------------|-----------------|----------------|
+| Gem  | Clicks: 100 | 120°C       | 200             | 10             |
