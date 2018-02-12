@@ -1,0 +1,95 @@
+body {
+  background: grey;
+}
+h1, h2, h3, h4, h5 {
+  display: inline;
+}
+
+h2.title {
+  text-decoration: underline;
+}
+h1.game-title, h3.game-title {
+  color: #aaa;
+}
+
+*::selection {
+  background-color: transparent;
+}
+
+button {
+  height: 28px;
+  font-size: 14px;
+  border: solid 3px #555;
+  background: #bbb;
+}
+button:hover {
+  background: #aaa
+}
+
+div {
+  border: 2px solid #555;
+  padding: 6px;
+  margin: 2px;
+}
+
+div#info-box {
+  display: inline;
+  float: left;
+  width: 48%;
+  left: 0;
+}
+div#shop-box {
+  display: inline;
+  float: right;
+  width: 48%;
+  right: 0;
+}
+div#fusing-box {
+  display: inline-block;
+  float: left;
+  width: 98%;
+  left: 0;
+}
+div#fusing-box-info {
+  float: left;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  width: 51%;
+  display: inline-block;
+}
+div#fusing-box-controls {
+  display: inline-block;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul#current-fusions {
+  list-style: none;
+  margin: 0px;
+  font-size: 1em;
+  font-weight: bold;
+  padding-left: 8px;
+  border:
+}
+ul#current-fusions > li {
+  background: #bbb;
+  border-left: 3px solid #bbb;
+  border-right: 3px solid #bbb;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #bbb;
+  display: block;
+  width: 25%;
+  margin: 0px;
+}
+ul#current-fusions > li:last-child {
+  border-bottom: 1px solid #666;
+}
+
+input#fusing-clicks {
+  width: 3em;
+}
+input#fusing-temp {
+  width: 3em;
+}

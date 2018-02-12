@@ -1,0 +1,52 @@
+<html>
+<head>
+  <title>Some Clicker Game</title>
+  <link href="index.css" rel="stylesheet">
+</head>
+<body>
+  <div id="info-box">
+    <h1 class="game-title">Some Clicker Game</h1>
+    <h3 class="game-title"> by Preston Hager</h3>
+    <br>
+    <h2 class="title">Info Box</h2>
+    <br>
+    <h3>Clicks:</h3>
+    <h3 id="clicks">0</h3>
+  </div>
+  <div id="shop-box">
+    <h2 class="title">Shop Box</h2>
+    <br>
+    <button id="buy-more-clicks">Buy More Clicks per Click for 100c</button>
+  </div>
+  <div id="fusing-box">
+    <h2 class="title">Fusing Box</h2>
+    <br>
+    <div id="fusing-box-info">
+      <h3>Current Fusions</h3>
+      <ul id="current-fusions">
+        <li class="current-fusions-fusion">Fusion 1 - 1</li>
+        <li class="current-fusions-fusion">Fusion 2 - 10</li>
+      </ul>
+    </div>
+    <div id="fusing-box-controls":>
+      <h3>Conrols</h3>
+      <br>
+      <h4>Clicks:</h4>
+      <input id="fusing-clicks" type="number" min="0" value="0">
+      <br>
+      <h4>Temperature:</h4>
+      <input id="fusing-temp" type="number" min="0" max="200" value="20">
+      <h4>°C</h4>
+      <br>
+      <h4>Energy Required:</h4>
+      <h4 id="fusing-energy-required">0 Clicks</h4>
+      <br>
+      <h4 id="fusing-time-required">0 Seconds</h4>
+      <br>
+      <button id="fusing-start">Start Fusing</button>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
