@@ -1,6 +1,6 @@
 site_name: Some Clicker Game
-repo_url: https://github.com/DragonMastur/SomeClickerGame
+repo_url: https://github.com/DragonMastur/SomeClickerGame.git
 site_author: DragonMastur
 pages:
 - ["index.md", "Introduction"]
-- ["user-guide", "User Guide"]
+- ["user-guide", "User-Guide"]
