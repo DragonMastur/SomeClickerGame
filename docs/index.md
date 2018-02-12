@@ -1,3 +1,3 @@
 # Introduction
 
-This is the indroduction page. Styled using markdown.
+This is the introduction page. Styled using markdown.

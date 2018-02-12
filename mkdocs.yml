@@ -3,3 +3,4 @@ repo_url: https://github.com/DragonMastur/SomeClickerGame
 site_author: DragonMastur
 pages:
 - ["index.md", "Introduction"]
+- ["user-guide", "User Guide"]
