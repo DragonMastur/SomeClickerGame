@@ -7,16 +7,22 @@
   <div id="info-box">
     <h1 class="game-title">Some Clicker Game</h1>
     <h3 class="game-title"> by Preston Hager</h3>
+    <button id="save-game" style="float: right;" onclick="window.localStorage.setItem('SomeClickerGameData', JSON.stringify(game));">Save</button>
     <br>
     <h2 class="title">Info Box</h2>
     <br>
     <h3>Clicks:</h3>
     <h3 id="clicks">0</h3>
+    <br>
+    <h3>Jules:</h3>
+    <h3 id="jules">0</h3>
   </div>
   <div id="shop-box">
     <h2 class="title">Shop Box</h2>
     <br>
     <button id="buy-more-clicks">Buy More Clicks per Click for 100c</button>
+    <br>
+    <button id="buy-more-energy">Buy More Jules per Second for 100c</button>
   </div>
   <div id="fusing-box">
     <h2 class="title">Fusing Box</h2>
@@ -24,12 +30,10 @@
     <div id="fusing-box-info">
       <h3>Current Fusions</h3>
       <ul id="current-fusions">
-        <li class="current-fusions-fusion">Fusion 1 - 1</li>
-        <li class="current-fusions-fusion">Fusion 2 - 10</li>
       </ul>
     </div>
     <div id="fusing-box-controls":>
-      <h3>Conrols</h3>
+      <h3>Controls</h3>
       <br>
       <h4>Clicks:</h4>
       <input id="fusing-clicks" type="number" min="0" value="0">
@@ -39,7 +43,7 @@
       <h4>°C</h4>
       <br>
       <h4>Energy Required:</h4>
-      <h4 id="fusing-energy-required">0 Clicks</h4>
+      <h4 id="fusing-energy-required">0 Jules</h4>
       <br>
       <h4 id="fusing-time-required">0 Seconds</h4>
       <br>
